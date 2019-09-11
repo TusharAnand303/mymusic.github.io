@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css
+	">
+</head>
+<body>
+
+
+<div class="app">
+	<header>
+		<h1 class="my animated infinite jackInTheBox" style="color: red;">My MUSIC</h1>
+		<p>To play Tap On POSTER</p>
+	</header>
+	<div class="visuals"><h1>Bollywood Music..</h1></div>
+		<div class="pads">
+
+			<div class="pad1">
+				
+			</div>
+			<div class="pad2">
+				
+			</div>
+			<div class="pad3">
+				
+			</div>
+			
+		</div>
+	
+</div>
+
+
+<script type="text/javascript">
+
+var demo=document.querySelector('.pad1').addEventListener('click',playsong);
+var song1=new Audio();
+var song2=new Audio();
+var song3=new Audio();
+song1.src="m.mp3";
+song2.src="s.mp3";
+song3.src="sorry.mp3";
+
+
+function playsong()
+{
+	song1.play();
+}
+
+ var demo2=document.querySelector('.pad2').addEventListener('click',playsong2);
+
+ function playsong2()
+ {
+ 	song2.play();
+
+ }
+ var demo3=document.querySelector('.pad3').addEventListener('click',playsong3);
+ function playsong3()
+ {
+ 	song3.play();
+ }
+
+</script>
+</body>
+</html>
